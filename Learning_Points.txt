@@ -1,0 +1,1 @@
+1.In CSS space(around an element) = margin.
