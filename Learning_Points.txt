@@ -20,3 +20,5 @@
 --lesson 04:CSS Box Model
 	1.margin -> space outside of an element. 
 	2.padding -> spacing inside our element, it's basically spacing around the text in an element. 
+		Using padding is a better alternative to height and width.
+	3.Border
