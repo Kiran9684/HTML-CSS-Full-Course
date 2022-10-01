@@ -1,3 +1,22 @@
 1.In CSS space(around an element) = margin.
 
 --lesson 03:Hovers, Transitions, Shadows
+	1.pseudo class in css - it basically adds extra styles in certain situations, for ex when we hover over a html element. 
+	ex1- ':hover' is a pseudo class which can be used to add extra style when we hover over a element. 
+	ex2- ':active' is a pseudo class which can be used to add extra style when we click on the element. 
+
+	2.Transitions
+	It's basically to change the styling effects smoothly.(for ex when we add extra styles using pseudo classes).
+	css property -> 'transition' 
+	it takes 2 values 1-> what to transit(property name) 2-> How smoothly you want the transition to happen/How long this transition will take(in seconds/milliseconds).
+
+	It's always preferred to use transition property in the base Css style, so that if there are any extra styling that is used using pseudo classes then the changes transition will happen
+	smoothly as per values defined in transition property. 
+
+	3.Shawdows
+	box-shadow property in CSS.
+	https://www.w3schools.com/css/css3_shadows.asp
+
+--lesson 04:CSS Box Model
+	1.margin -> space outside of an element. 
+	2.padding -> spacing inside our element, it's basically spacing around the text in an element. 
