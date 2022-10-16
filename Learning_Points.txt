@@ -1,3 +1,7 @@
+General Technique: 
+1.Create an element using html.
+2.Style using css one by one.
+
 1.In CSS space(around an element) = margin.
 
 --lesson 03:Hovers, Transitions, Shadows
@@ -22,3 +26,13 @@
 	2.padding -> spacing inside our element, it's basically spacing around the text in an element. 
 		Using padding is a better alternative to height and width.
 	3.Border
+
+--lesson 05:Text Styles
+	1.line-height -> used to add spaces between text lines. 
+	2.HTML-Entitiy -> https://www.w3schools.com/html/html_entities.asp
+	3.<p> -> paragraph by default comes with top and bottom margin of 14px. 
+
+	<Important!!>
+	CSS Specificity : If we have multiple lines setting the same property there is actually a priority that follows. 
+		[The selector that is more specific has higher priority].
+		class name selector has more priority > than element name selector. 
