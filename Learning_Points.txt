@@ -36,3 +36,12 @@ General Technique:
 	CSS Specificity : If we have multiple lines setting the same property there is actually a priority that follows. 
 		[The selector that is more specific has higher priority].
 		class name selector has more priority > than element name selector. 
+
+--lesson 06:The HTML Structure
+	<!DOCTYPE html> -> It basically tells browser to use modern version of html.
+	<html> -> it marks beginning and ending of an html page.
+	<head> -> it includes only the elements that are not to be seen on a web page(for ex: style,title and link tags). 
+	<body> -> it includes all the elements that are to be seen on a web page.
+	<title> -> this tag gives name to the webpage.
+
+	void elements -> these doesn't have 
