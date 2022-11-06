@@ -44,4 +44,11 @@ General Technique:
 	<body> -> it includes all the elements that are to be seen on a web page.
 	<title> -> this tag gives name to the webpage.
 
-	void elements -> these doesn't have 
+	void elements -> these doesn't have or require closing tag.
+
+--lesson 07:Images and Text Boxes
+	->When we set width, height changes automatically 
+	->img element has it's own properties that are specific to image(for ex: object-fit Property)
+	https://www.w3schools.com/html/html_images.asp
+	https://www.w3schools.com/css/css3_object-fit.asp
+	https://www.w3schools.com/CSSref/css3_pr_object-position.php
