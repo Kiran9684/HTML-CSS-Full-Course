@@ -61,7 +61,7 @@ General Technique:
 --lesson 08: CSS Display property
 	-3 Types of elements in html 
 	1.Block element -> these elments takes entire line.
-		for ex : <p> and <div> is a block level element.
+		for ex : <p>,<div>,</hr> etc.. is a block level element.
 		for visual experience you can inspect a <p> element in browser dev tools.
 		note: block elements take up the entire line when within a container (<div>).
 	2.Inline-block element -> these elements only takes up as much as space is needed. it does not take entire line space.
