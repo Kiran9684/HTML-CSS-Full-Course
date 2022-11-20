@@ -54,5 +54,18 @@ General Technique:
 	https://www.w3schools.com/CSSref/css3_pr_object-position.php
 
 
---Vertical Align 
-https://www.w3schools.com/cssref/pr_pos_vertical-align.php
+	--Vertical Align 
+	https://www.w3schools.com/cssref/pr_pos_vertical-align.php
+
+
+--lesson 08: CSS Display property
+	-3 Types of elements in html 
+	1.Block element -> these elments takes entire line.
+		for ex : <p> is a block level element.
+		for visual experience you can inspect a <p> element in browser dev tools.
+	2.Inline-block element -> these elements only takes up as much as space is needed. it does not take entire line space.
+		for ex : <img>, <input> etc..
+	3.Inline element -> They are basically text elements, they appear within a line of text.
+		for ex : <strong> , <i> etc..
+
+	-We can use css property display for switching over between inline and block. 
