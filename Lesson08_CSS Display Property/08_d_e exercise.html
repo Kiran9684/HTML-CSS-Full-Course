@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> lesson 8 exercise_2</title>
+    <style>
+        .first_name,.last_name,.email{
+         
+            padding-left:8px;
+            padding-right:8px;
+            padding-top:8px;
+            padding-bottom:8px;
+            border-radius:5px;
+            border-style:solid;
+            margin-bottom:12px;
+            border-width:1px;
+        }
+
+        .first_name,.last_name{
+            width:100px;
+        }
+
+        .email {
+            display: block;
+            width:222px;
+            border-width:1px;
+        }
+
+        .sign_up {
+            border: none;
+            background-color: rgb(47, 127, 231);
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            width: 243px;
+            padding-top:8px;
+            padding-bottom:8px;
+            padding-left:12px;
+            padding-right:18px;
+
+        }
+
+        .uber_headline{
+
+            font-family:Arial;       
+            font-size:50px;
+            margin-bottom:15px;
+
+        }
+
+        .pick_up_field, .destination_field {
+            margin-bottom: 10px;
+            background-color: lightgray;
+            display: block;
+            width:450px;
+            padding-left:12px;
+            padding-top:12px;
+            padding-bottom:12px;
+            border:none;
+        }
+
+        .Req_button, .Schedule_later_button {
+            margin-top: 12px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 12px;
+            padding-right: 12px;
+            border: none;
+            font-size: 16px;
+        }
+
+        .Req_button{
+            background-color:black;
+            color:white;
+
+        }
+
+        .Schedule_later_button {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+        <!-- 8d- sign up form -->
+
+        <input class="first_name" type="text" placeholder="First Name" />
+        <input class="last_name" type="text" placeholder="Last Name" />
+        <input class="email" type="text" placeholder="Email"/>
+        <button class="sign_up">Sign Up</button>
+        <hr />
+    </div>
+
+    <div>
+        <!-- 8e - Uber request-a-ride form -->
+
+        <p class="uber_headline">Request a ride now</p>
+
+        <input class="pick_up_field" type="text" placeholder="Enter pickup location" />
+        <input class="destination_field" type="text" placeholder="Enter destination"/>
+
+        <button class = "Req_button">Request now</button>
+        <button class = "Schedule_later_button">Schedule for later</button>
+
+    </div>
+</body>
+</html>
