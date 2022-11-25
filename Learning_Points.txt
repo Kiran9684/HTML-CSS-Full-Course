@@ -76,3 +76,16 @@ General Technique:
 	-Simply you can think of it as a BOX.
 	-It can contain any other elements inside it.
 	-They are meant to be containers that groups all the elements for required layout.
+
+--lesson10 : Nested layout technique
+	-Basically there are 2 types of layout 
+	1.Vertical layout (where things are on top of each other).
+	2.Horizontal layout(where items are beside each other).
+	-Combination of above 2 layouts is generally used in a website.
+
+	Drawing Tool:
+	https://docs.google.com/drawings/d/1bML0_k4cHwUfCr4cFEleEncffWjlxbTTlU4oL62KmFs/edit
+
+	Tip: 
+	Always try to break down the design into combination of above two mentioned layouts. 
+	It will make easier for you to re-create the design.
