@@ -89,3 +89,18 @@ General Technique:
 	Tip: 
 	Always try to break down the design into combination of above two mentioned layouts. 
 	It will make easier for you to re-create the design.
+
+--lesson11: CSS Grid
+	-CSS grid is much better way to create horrizontal layouts and a grids.
+	-In lesson 10 we used display in line block to create "horizontal layouts".This has some problems like alignment problems(check the video for more idea).
+	-With css grid , we can create perfectly aligned horizontal layouts.
+	-What is a GRID?
+		A grid is a layout that has rows and columns
+		for ex : consider a 2*3 grid, which means 2 rows and 3 columns.
+
+	-To create a grid, 2 steps need to be followed. 
+		1.set display property to grid. 
+		2.specify how many columns you need in your grid. Use grid-template-columns css property.
+	-Grid characteristics explained in Demo, check it. 
+	-Fr -> It's a special value in grid, means a free space. 
+	-Remember !! -> We need to always create a grid on the container. 

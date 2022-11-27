@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>11D exercise</title>
+        <style>
+            .add_friend_grid {
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                /* height:200px;*/
+                column-gap: 20px;
+            }
+
+            .add_friend_preview{
+                box-shadow:2.5px 2.5px 5px dimgray;
+                border:none;
+                
+            }
+
+            .frnd_profile_pic{
+                margin-bottom:6px;
+            }
+
+            .frnd_profile_pic_thumbnail{
+              width:200px;
+              height:150px;
+              object-fit:cover;
+              object-position:95%;
+              
+            }
+
+            .frnd_profile_info
+            {
+                margin-left:8px;
+            }
+
+            p{
+                margin-top:0px;
+                margin-bottom:0px;
+            }
+            .frnd_name{
+            
+                margin-bottom:6px;
+                font-family:Arial;
+                font-weight:bold;
+            }
+
+            .mutual_frnds_info{
+                display:grid;
+                grid-template-columns: 50px 1fr;
+                align-items:center;
+                /*To align items in this grid to center*/
+            }
+
+            .profile_thumbnail{
+                width:35px;
+                height:35px;
+                border-radius:50px;
+            }
+
+            .mutual_frnd_no{
+                font-family:Arial;
+                color:dimgrey;
+            }
+
+            .add_frnd{
+                margin-top:6px;
+            }
+
+            .add_friend_button {
+                background-color: #1DA1F2;
+                border-radius:5px;
+                color:white;
+                padding-left:12px;
+                padding-right:12px;
+                padding-top:8px;
+                padding-bottom:8px;
+                border:none;
+                margin-bottom:12px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="add_friend_grid">
+
+            <!-- Grid01 -->
+            <div class="add_friend_preview">
+
+                <div class="frnd_profile_pic">
+                    <!-- frnd profile pic here -->
+                    <img class="frnd_profile_pic_thumbnail" src="https://i.ytimg.com/vi/bKD-D3pCWrA/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLCy-W3gjAxHa0n3h_fOktHoYHuNhQ" />
+                </div>
+
+                <div class="frnd_profile_info">
+
+                    <div class="frnd_profile_name">
+                        <!-- frnd name here -->
+                        <p class="frnd_name">Oliver</p>
+                    </div>
+
+                    <div class="mutual_frnds_info">
+                        <!-- use s grid for horizontal layout here -->
+                        <div>
+                            <!-- pic here -->
+                            <img class="profile_thumbnail" src="..\Lesson10_Nested Layouts Technique\profile.jpg" />
+                        </div>
+                        <div>
+                            <!-- mutual frnds deatil here -->
+                            <p class="mutual_frnd_no">2 mutual friends</p>
+                        </div>
+                    </div>
+
+                    <div class="add_frnd">
+                        <!-- add button here -->
+                        <button class="add_friend_button">Add Friend</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Grid02 -->
+            <div class="add_friend_preview">
+
+                <div class="frnd_profile_pic">
+                    <!-- frnd profile pic here -->
+                    <img class="frnd_profile_pic_thumbnail" src="https://i.ytimg.com/vi/bKD-D3pCWrA/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLCy-W3gjAxHa0n3h_fOktHoYHuNhQ" />
+                </div>
+
+                <div class="frnd_profile_info">
+
+                    <div class="frnd_profile_name">
+                        <!-- frnd name here -->
+                        <p class="frnd_name">Oliver</p>
+                    </div>
+
+                    <div class="mutual_frnds_info">
+                        <!-- use s grid for horizontal layout here -->
+                        <div>
+                            <!-- pic here -->
+                            <img class="profile_thumbnail" src="..\Lesson10_Nested Layouts Technique\profile.jpg" />
+                        </div>
+                        <div>
+                            <!-- mutual frnds deatil here -->
+                            <p class="mutual_frnd_no">2 mutual friends</p>
+                        </div>
+                    </div>
+
+                    <div class="add_frnd">
+                        <!-- add button here -->
+                        <button class="add_friend_button">Add Friend</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Grid03 -->
+            <div class="add_friend_preview">
+
+                <div class="frnd_profile_pic">
+                    <!-- frnd profile pic here -->
+                    <img class="frnd_profile_pic_thumbnail" src="https://i.ytimg.com/vi/bKD-D3pCWrA/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLCy-W3gjAxHa0n3h_fOktHoYHuNhQ" />
+                </div>
+
+                <div class="frnd_profile_info">
+
+                    <div class="frnd_profile_name">
+                        <!-- frnd name here -->
+                        <p class="frnd_name">Oliver</p>
+                    </div>
+
+                    <div class="mutual_frnds_info">
+                        <!-- use s grid for horizontal layout here -->
+                        <div>
+                            <!-- pic here -->
+                            <img class="profile_thumbnail" src="..\Lesson10_Nested Layouts Technique\profile.jpg" />
+                        </div>
+                        <div>
+                            <!-- mutual frnds deatil here -->
+                            <p class="mutual_frnd_no">2 mutual friends</p>
+                        </div>
+                    </div>
+
+                    <div class="add_frnd">
+                        <!-- add button here -->
+                        <button class="add_friend_button">Add Friend</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

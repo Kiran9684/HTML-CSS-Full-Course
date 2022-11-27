@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>lesson 11 grid_Demo 1</title>
+</head>
+
+<body>
+    <!-- We are creating 1*2 Grid -->
+    <div style="display:grid; grid-template-columns:100px 100px;">
+        <div style="background-color:lightblue">
+            div1
+        </div>
+
+        <div style="background-color:lightcoral">
+            div2
+            <p>Test 1</p>
+        </div>
+
+        <!--
+        grid characteristics:
+        1. Now above both divs are inside a grid so it only takes up entire column instead.
+        2.There be any additional space between above 2 divs.
+        3.And boths divs will be aligned vertically correctly.
+        4.Now if you add anything withing divs, it automatically expands the cols height and yet both divs remain aligned verically.
+        -->
+    </div>
+
+    <!-- 1*3 grid -->
+    <div style="display:grid; grid-template-columns:100px 100px; margin-top:10px;">
+        <div style="background-color:lightblue">
+            div1
+        </div>
+
+        <div style="background-color:lightcoral">
+            div2
+            <p>Test 1</p>
+        </div>
+
+        <!-- let's add extra element -->
+
+        <div style="background-color:yellow;">
+            Div 3
+        </div>
+
+        <!--
+            1.Now we added extra element , but for grid we have specified only 2 columns.
+            2.This div3 will bw wrapped around and created as 2nd row, which is basic characteristic of grid system.
+            3.Similarly if you add div4 it will be 2nd row and 2nd col.
+            4.If you add 5th div it will become 3rd row and 1st col.
+        -->
+
+        <div style="background-color:blueviolet;">
+            Div 4
+        </div>
+
+        <div style="background-color:blueviolet;">
+            Div 5
+        </div>
+    </div>
+
+    <!-- fr demo -->
+    <div style="display:grid; grid-template-columns:100px 1fr; margin-top:10px;">
+        <div style="background-color:lightblue">
+            div1
+        </div>
+
+        <div style="background-color:lightcoral">
+            1fr
+        </div>
+        <!--
+
+        1.We have specified 1st cold width as 100px and 2nd col as 1 freespace.
+        2.It means for 2nd col take up the available free space.
+        -->
+    </div>
+
+    <div style="display:grid; grid-template-columns:100px 1fr 2fr; margin-top:10px;">
+        <div style="background-color:lightblue">
+            div1
+        </div>
+
+        <div style="background-color:lightcoral">
+            1fr
+        </div>
+
+        <div style="background-color:gold">
+            2fr
+        </div>
+
+    </div>
+
+
+    <!-- To add spaceb\w columns and rows -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; row-gap: 12px; column-gap: 12px; margin-top: 10px;">
+        <div style="background-color:lightblue; height:200px;">
+            1fr
+        </div>
+
+        <div style="background-color:lightcoral; height:200px;">
+            1fr
+        </div>
+
+        <div style="background-color:gold; height:200px;">
+            1fr
+        </div>
+
+        <div style="background-color:lightcoral; height:200px;">
+            1fr
+        </div>
+
+        <div style="background-color:gold; height:200px;">
+            1fr
+        </div>
+
+        <div style="background-color:lightblue; height:200px;">
+            1fr
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>11A,B and C excercises</title>
+        <style>
+            .grid_container{
+                display:grid;
+                grid-template-columns: 200px 75px;
+                margin-bottom:100px;
+            }
+
+            .grid_container2 {
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+                margin-bottom: 100px;
+            }
+
+            .grid_container3 {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap:20px;
+                row-gap:10px;
+                margin-bottom: 100px;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="grid_container">
+            <div style="background-color:aqua">200px</div>
+            <div style="background-color:aquamarine">75px</div>
+        </div>
+
+        <div class="grid_container2">
+
+            <div style="background-color:yellowgreen">col1</div>
+            <div style="background-color:forestgreen">col2</div>
+            <div style="background-color:aquamarine">col3</div>
+        </div>
+
+        <div class="grid_container3">
+
+            <div style="background-color:gold">col1</div>
+            <div style="background-color:gold">col1</div>
+            <div style="background-color:gold">col1</div>
+            <div style="background-color:gold">col1</div>
+            <div style="background-color:gold">col1</div>
+            <div style="background-color:gold">col1</div>
+            <div style="background-color:gold">col1</div>
+            <div style="background-color:gold">col1</div>
+
+        </div>
+    </body>
+
+</html>
