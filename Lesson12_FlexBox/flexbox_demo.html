@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flex Box Demo</title>
+</head>
+<body>
+    <div style="display:flex; flex-direction:row">
+
+        <div style="background-color:lightcoral"> div1 </div>
+
+        <div style="background-color:lightblue">
+            div2
+            <p>Text 2</p>
+        </div>
+        <!-- Now above 2 block level elements will no more behave as a block level elements.
+            As they are inside flex box, they only take up as much as space is available for items inside flex box.
+            They behave like inline elements
+        -->
+    </div>
+
+    <div style="display:flex; flex-direction:row;margin-top:30px;">
+
+        <div style="background-color:lightcoral;width:100px;"> 100px </div>
+
+        <div style="background-color:lightblue;flex:1">Flex:1</div>
+
+    </div>
+
+    <div style="display:flex; flex-direction:row;margin-top:30px;">
+
+
+
+        <div style="background-color:lightblue;flex:1">Flex:1</div>
+
+        <div style="background-color:gold;width:100px;"> 100px </div>
+
+        <div style="background-color: lightcoral; flex: 2">Flex:2</div>
+
+    </div>
+
+    <div style="display:flex; flex-direction:row;margin-top:30px; height:50px;border:solid;border-width:1px;border-color:gray;justify-content:center">
+
+        <!-- justify-content property aligns the flexible container's items when the items do not
+            use all available space on the main-axis (horizontally). -->
+
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+
+        <div style="background-color:gold;width:100px;"> 100px </div>
+
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+
+    </div>
+
+    <div style="display:flex; flex-direction:row;margin-top:30px; height:50px;border:solid;border-width:1px;border-color:gray;justify-content:space-around">
+
+        <!-- justify-content property aligns the flexible container's items when the items do not
+            use all available space on the main-axis (horizontally). -->
+
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+
+        <div style="background-color:gold;width:100px;"> 100px </div>
+
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+
+    </div>
+    <div style="display:flex; flex-direction:row;margin-top:30px; height:70px;border:solid;border-width:1px;border-color:gray;justify-content:space-around;align-items:flex-start">
+
+        <!-- align-items:flex-start now the items will take only asmuch as space from top  -->
+
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+
+        <div style="background-color:gold;width:100px;"> 100px AAAAAAAA </div>
+
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+
+    </div>
+</body>
+</html>

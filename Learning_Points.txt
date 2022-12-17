@@ -104,3 +104,21 @@ General Technique:
 	-Grid characteristics explained in Demo, check it. 
 	-Fr -> It's a special value in grid, means a free space. 
 	-Remember !! -> We need to always create a grid on the container. 
+
+--Lesson12: FlexBox
+	-Is another way to create a layout.
+	-It is similar to css grid but it is more flexible.
+	-Just like grid flex box also requires a container.
+	-You can create a flex box by setting display property to flex. 
+	-flex-direction property specifices how the flex items should be displayed.
+	-We can create horizontal layouts while maintaining alignments in flex box.
+	-flex:1 is 1fr equivalent in grid. It also takes 1free space.
+
+	Diff b/w grid and flexbox
+	--The elements take their width along with them.
+
+	--justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
+	https://www.w3schools.com/cssref/css3_pr_justify-content.php
+
+	The align-items property specifies the default alignment for items inside the flexible container.
+	https://www.w3schools.com/cssref/css3_pr_align-items.php
