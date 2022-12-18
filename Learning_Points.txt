@@ -115,7 +115,7 @@ General Technique:
 	-flex:1 is 1fr equivalent in grid. It also takes 1free space.
 
 	Diff b/w grid and flexbox
-	--The elements take their width along with them.
+	--The elements take their width along with them if they move around in flex box.
 
 	--justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
 	https://www.w3schools.com/cssref/css3_pr_justify-content.php
