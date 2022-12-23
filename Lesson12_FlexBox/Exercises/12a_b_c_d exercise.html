@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>12 A,B,C,D Exercise</title>
+        <style>
+            .container12A {
+                display: flex;
+                flex-direction: row;
+                border: solid;
+                border-width:1px;
+            }
+
+            .container12A_Item01 {
+                width: 200px;
+                background-color:lightblue;
+            }
+            .container12A_Item02 {
+                width: 75px;
+                background-color:lightpink;
+            }
+
+            .container12B {
+                display: flex;
+                flex-direction: row;
+                margin-top: 50px;
+                border: solid;
+                border-width: 1px;
+            }
+            .container12B_Item01{
+                width:50px;
+                background-color:aqua;
+            }
+            .container12B_Item02{
+                flex:1;
+                background-color:aquamarine;
+            }
+            .container12B_Item03{
+                width:75px;
+                background-color:aqua;
+            }
+
+            .container12C {
+                display: flex;
+                flex-direction: row;
+                margin-top: 50px;
+                justify-content: space-between;
+                border: solid;
+                border-width: 1px;
+            }
+
+            .container12C_Item01,.container12C_Item02,.container12C_Item03,.container12C_Item04{
+                background-color:aquamarine;
+               
+            }
+
+            .container12D{
+                display:flex;
+                flex-direction:row;
+                border:solid;
+                border-width:1px;
+                height:100px;
+                margin-top:50px;
+                justify-content:space-between;
+                align-items:center;
+            }
+            .container12D_Item01,.container12D_Item02{
+                background-color:aquamarine;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container12A">
+            <div class="container12A_Item01">200px</div>
+            <div class="container12A_Item02">75px</div>
+        </div>
+
+        <div class="container12B">
+            <div class="container12B_Item01">item1</div>
+            <div class="container12B_Item02">item2</div>
+            <div class="container12B_Item03">item3</div>
+        </div>
+
+        <div class="container12C">
+            <div class="container12C_Item01">item1</div>
+            <div class="container12C_Item02">item2</div>
+            <div class="container12C_Item03">item3</div>
+            <div class="container12C_Item04">item4</div>
+        </div>
+
+        <div class="container12D">
+            <div class="container12D_Item01">item1</div>
+            <div class="container12D_Item02">item2</div>
+        </div>
+    </body>
+
+</html>
